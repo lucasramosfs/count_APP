@@ -1,30 +1,34 @@
 {
-  "expo": {
-    "name": "app_da_vivi",
-    "slug": "app_da_vivi",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "expo": {
+        "name": "Vivis's APP",
+        "slug": "app_da_vivi",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/logo_menor.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/logo.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#B0C4DE"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/logo_menor_ainda.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.vilu28.app_da_vivi"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "16f76037-6db8-44a2-80e9-efc39c036fdb"
+            }
+        }
     }
-  }
 }
